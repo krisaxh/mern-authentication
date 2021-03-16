@@ -1,5 +1,5 @@
 # mern-authentication
-To setup this project, install it locally using npm:
+To run this project, install it locally using npm:
 ```
 $ cd ./frontend && npm install
 $ npm start
