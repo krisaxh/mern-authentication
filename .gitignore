@@ -6,4 +6,4 @@ backend/node_modules
 .rest
 
 # misc
-.env
+.env.dev
