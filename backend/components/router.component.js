@@ -4,13 +4,15 @@ const {
     LoginEvent, 
     LogoutEvent, 
     RegisterEvent,
-    RouteEvent
+    RouteEvent,
+    GetUser
 } = require('./handler.router');
 
 router.post("/login", LoginEvent);
 router.get("/logout", LogoutEvent);
 router.post("/register", RegisterEvent);
 
-router.get("/is", RouteEvent);
+router.get("/page", RouteEvent);
+router.get("/user", GetUser);
 
 module.exports = router;
